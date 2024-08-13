@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>{{ utc_dt }}</h3>
+        {% if project %}
+      <h1>Hello {{ project }}!</h1>
+    {% else %}
+      <h1>Hello, About_Me!</h1>
+    {% endif %}
+{% endblock %}

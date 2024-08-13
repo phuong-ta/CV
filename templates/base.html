@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+</head>
+<body>
+    <div class="nav_list">
+        <nav>
+            <a href="/">About Me</a>
+            <a href="/education">Education</a>
+            <a href="/languages">Languages</a>
+            <a href="/skills">Skills</a>
+            <a href="/experiences">Experiences</a>
+            <a href="/interests">Interests</a>
+            <a href="/projects">Projects</a>
+        </nav>
+    </div>
+
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li> Gmail</li>
+                <li> Whatsapp </li>
+                <li> Linkedin</li>
+                <li> GitHub</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
